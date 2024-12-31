@@ -1,5 +1,5 @@
 ---
-title: "Bảo mật Spring Boot RESTful Service sử dụng Basic Authentication trong Java"
+title: "Bảo mật Spring Boot RESTful Service trong Java"
 date: 2024-12-30T12:00:00+07:00
 summary: Bài viết này sẽ hướng dẫn bạn cách bảo mật một dịch vụ RESTful trong Spring Boot sử dụng Basic Authentication. Chúng ta sẽ cấu hình Spring Security để yêu cầu xác thực khi truy cập vào các endpoint của dịch vụ.
 image: /images/java/f.png

@@ -1104,7 +1104,58 @@ Nhật Trường Blog
         </div>
     </div>
 </section>
-<div class="recent-posts py-5" id="Java">
+
+
+<style>
+    
+#projects a {
+    text-decoration: none;
+}
+
+#projects h3 {
+    color: var(--text-secondary-color) !important;
+}
+
+#projects .card {
+    cursor: context-menu;
+    background-color: var(--secondary-color) !important;
+    border-radius: 1rem;
+    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+     
+    transition: box-shadow .2s linear,opacity .2s linear;
+    border: 2px solid transparent;
+}
+
+#projects a.card {
+    cursor: alias;
+}
+
+#projects .card h5 {
+    color: var(--text-color) !important;
+    opacity: 0.9;
+}
+
+#projects .card:hover {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+#projects .card:focus {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+
+#projects .card-text {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-secondary-color) !important;
+}
+
+#projects img {
+    border-radius: 0.7rem;
+}
+
+
+
+</style><div class="recent-posts py-5" id="Java">
     <div class="container" >
         
         
@@ -1122,7 +1173,7 @@ Nhật Trường Blog
                         
                     </div>
                     <div class="post-content">
-                        <h3>Bảo mật Spring Boot RESTful Service sử dụng Basic Authentication trong Java</h3>
+                        <h3>Bảo mật Spring Boot RESTful Service trong Java</h3>
                         <p class="post-date">December 30, 2024</p>
                     </div>
                 </a>
@@ -1170,7 +1221,7 @@ Nhật Trường Blog
                         
                     </div>
                     <div class="post-content">
-                        <h3>Giới thiệu về ngôn ngữ Java</h3>
+                        <h3>Giới thiệu và tìm hiểu về ngôn ngữ Java</h3>
                         <p class="post-date">December 30, 2024</p>
                     </div>
                 </a>
@@ -1216,6 +1267,53 @@ Nhật Trường Blog
 
 
 <style>
+    
+#Java a {
+    text-decoration: none;
+}
+
+#Java h3 {
+    color: var(--text-secondary-color) !important;
+}
+
+#Java .card {
+    cursor: context-menu;
+    background-color: var(--secondary-color) !important;
+    border-radius: 1rem;
+    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+     
+    transition: box-shadow .2s linear,opacity .2s linear;
+    border: 2px solid transparent;
+}
+
+#Java a.card {
+    cursor: alias;
+}
+
+#Java .card h5 {
+    color: var(--text-color) !important;
+    opacity: 0.9;
+}
+
+#Java .card:hover {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+#Java .card:focus {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+
+#Java .card-text {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-secondary-color) !important;
+}
+
+#Java img {
+    border-radius: 0.7rem;
+}
+
+    @import url(../../../static/css/theme.css);
      
     .container {
         width: 80% !important;
@@ -1244,10 +1342,10 @@ Nhật Trường Blog
         flex: 1 1 calc(33.33% - 20px);
          
         max-width: calc(33.33% - 20px);
-        border: 1px solid #ddd;
+        border: 1px solid var(--background-color) !important;
         border-radius: 8px;
         overflow: hidden;
-        background: #fff;
+        background: var(--background-color) !important;
         transition: transform 0.3s, box-shadow 0.3s;
     }
 
@@ -1256,7 +1354,8 @@ Nhật Trường Blog
         width: 100%;
         display: block;
         text-decoration: none;
-        color: black;
+        background: var(--background-color) !important;
+        color: var(--text-color);
     }
 
      
@@ -1269,10 +1368,6 @@ Nhật Trường Blog
         border-bottom: 1px solid #ddd;
     }
 
-    .card:hover .card-head img {
-        transform: scale(1.1);
-         
-    }
 
      
     .post-content {
@@ -1305,7 +1400,7 @@ Nhật Trường Blog
         }   
     }
 </style><div class="recent-posts py-5" id="JavaScript">
-    <div class="container" >
+    <div class="container">
         
         
         <h3 class="text-center">JavaScript</h3>
@@ -1416,6 +1511,52 @@ Nhật Trường Blog
 
 
 <style>
+    #JavaScript a {
+        text-decoration: none;
+    }
+
+    #JavaScript h3 {
+        color: var(--text-secondary-color) !important;
+    }
+
+    #JavaScript .card {
+        cursor: context-menu;
+        background-color: var(--secondary-color) !important;
+        border-radius: 1rem;
+        box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+         
+        transition: box-shadow .2s linear, opacity .2s linear;
+        border: 2px solid transparent;
+    }
+
+    #JavaScript a.card {
+        cursor: alias;
+    }
+
+    #JavaScript .card h5 {
+        color: var(--text-color) !important;
+        opacity: 0.9;
+    }
+
+    #JavaScript .card:hover {
+        border: 2px solid var(--text-color);
+        transition: .3s;
+    }
+
+    #JavaScript .card:focus {
+        border: 2px solid var(--text-color);
+        transition: .3s;
+    }
+
+    #JavaScript .card-text {
+        background-color: var(--secondary-color) !important;
+        color: var(--text-secondary-color) !important;
+    }
+
+    #JavaScript img {
+        border-radius: 0.7rem;
+    }
+
      
     .container {
         width: 80% !important;
@@ -1469,10 +1610,6 @@ Nhật Trường Blog
         border-bottom: 1px solid #ddd;
     }
 
-    .card:hover .card-head img {
-        transform: scale(1.1);
-         
-    }
 
      
     .post-content {
@@ -1496,13 +1633,13 @@ Nhật Trường Blog
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
- 
+
     @media (max-width: 760px) {
         .post-item {
             flex: 1 1 100%;
              
             max-width: 100%;
-        }   
+        }
     }
 </style>
 <section id="contact" class="py-5">

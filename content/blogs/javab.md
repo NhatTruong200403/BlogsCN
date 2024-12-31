@@ -1,5 +1,5 @@
 ---
-title: "Giới thiệu về ngôn ngữ Java"
+title: "Giới thiệu và tìm hiểu về ngôn ngữ Java"
 date: 2024-12-30T12:00:00+07:00
 summary: Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất trên thế giới. Được phát triển bởi Sun Microsystems (nay là Oracle), Java đã chinh phục được nhiều lập trình viên nhờ tính ổn định, khả năng mở rộng và tính di động cao. Trong bài viết này, chúng ta sẽ cùng tìm hiểu về ngôn ngữ Java, đặc điểm nổi bật và ứng dụng của nó trong thế giới lập trình.
 image: /images/java/b.png
