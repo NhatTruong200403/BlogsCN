@@ -140,7 +140,7 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
+      name: "Tóm tắt"
       url: "#"
       download: true
       newPage: false
@@ -157,7 +157,7 @@ params:
   # About
   about:
     enable: true
-    title: "Giới thiệu"
+    title: "Giới thiệu bản thân"
     image: "/images/jjj.jpg"
     content: |-
       Sinh viên năm cuối ngành Công nghệ Phần mềm tại Đại học Công nghệ TP.HCM, tôi đam mê phát triển web. Với nền tảng vững chắc về khoa học máy tính và toán học, tôi luôn tìm kiếm sự giao thoa giữa công nghệ và nghệ thuật.
@@ -226,7 +226,7 @@ params:
           enable: true
           url: "https://github.com/NhatTruong200403/Certificate/blob/main/Java2.png"
         content: |
-          Chứng chỉ JavaScript Essentials 2 được Cisco cấp sau khi học xong tất cả khóa học, và thi qua các bài kiểm tra. Chứng chỉ sẽ thể hiện được bạn có kinh nghiệm về Networking Basic hay không.
+          Chứng chỉ JavaScript Essentials 2 được Cisco cấp sau khi học xong tất cả khóa học, và thi qua các bài kiểm tra. Chứng chỉ sẽ thể hiện được bạn có kinh nghiệm về JavaScript Essentials 2 hay không.
 
 
       
